@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laptop Stand - MR Trader</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(to right, #141e30, #243b55);
+      color:white;
+    }
+
+    header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:15px 40px;
+      background: rgba(0,0,0,0.6);
+    }
+
+    .brand-name{
+      font-size:22px;
+      font-weight:bold;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin-left:20px;
+      font-size:15px;
+    }
+
+    nav a:hover{
+      color:#00ffcc;
+    }
+
+    .product-section{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:80px 60px;
+      gap:60px;
+      flex-wrap:wrap;
+    }
+
+    .product-image img{
+      width:400px;
+      border-radius:15px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.5);
+    }
+
+    .product-content{
+      max-width:550px;
+    }
+
+    .product-content h1{
+      font-size:40px;
+      margin-bottom:20px;
+      color:#00ffcc;
+    }
+
+    .product-content p{
+      font-size:16px;
+      line-height:1.7;
+      margin-bottom:15px;
+    }
+
+    ul{
+      margin-top:15px;
+      margin-bottom:25px;
+    }
+
+    ul li{
+      margin-bottom:8px;
+    }
+
+    .btn{
+      padding:12px 25px;
+      background:#00ffcc;
+      border:none;
+      border-radius:5px;
+      font-size:15px;
+      cursor:pointer;
+      margin-right:10px;
+      font-weight:bold;
+    }
+
+    .btn:hover{
+      background:white;
+      color:black;
+    }
+
+    footer{
+      background:black;
+      text-align:center;
+      padding:25px;
+      margin-top:40px;
+      font-size:14px;
+    }
+
+    @media(max-width:768px){
+      .product-section{
+        flex-direction:column;
+        text-align:center;
+      }
+      .product-image img{
+        width:100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="brand-name">MR Trader</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="index.html#products">Products</a>
+    <a href="index.html#about">About</a>
+  </nav>
+</header>
+
+<section class="product-section">
+
+  <div class="product-image">
+    <img src="assets/laptopstand.jpg" alt="laptop stand">
+  </div>
+
+  <div class="product-content">
+    <h1>Laptop Stand</h1>
+
+    <p>
+      MR Trader offers high-quality laptop stands designed to improve posture,
+      airflow, and overall productivity. Perfect for office work, study, and gaming.
+    </p>
+
+    <p>
+      Our laptop stands provide strong support, adjustable height options,
+      and better cooling to enhance your laptop's performance and comfort.
+    </p>
+
+    <h3>Available Laptop Stand Options:</h3>
+    <ul>
+      <li>Adjustable Height Stands</li>
+      <li>Foldable & Portable Designs</li>
+      <li>Aluminum & Heavy-Duty Models</li>
+      <li>Cooling Vent Design</li>
+      <li>Office & Gaming Compatible</li>
+    </ul>
+
+    <button class="btn"
+      onclick="window.open('https://wa.me/923278235054?text=Hello MR Trader, I want to buy a Laptop Stand','_blank')">
+      Buy Now
+    </button>
+
+    <button class="btn"
+      onclick="window.location.href='index.html#products'">
+      Back to Products
+    </button>
+
+  </div>
+
+</section>
+
+<footer>
+  <p><strong>Address:</strong> Shop No # M-155, Odeon Centre, Saddar Regal, Karachi</p>
+  <p><strong>Contact:</strong> +92 313-2034367 | WhatsApp: +92 327-8235054</p>
+  <p><strong>Email:</strong> mrtraderskhi@gmail.com</p>
+</footer>
+
+</body>
+</html>
